@@ -22,7 +22,7 @@ const token = 'YOUR_BOT_TOKENS';
 const email = 'YOUR_GMAIL';
 const password = 'YOUR_PASSWORD_GMAIL';
 ```
-<p>Untuk mengganti tampilan template verifikasi send kamu cukup mengubah  <code>template.ejs</code> pada direktori berikut:</p>
+<p>Untuk mengganti tampilan template verifikasi email, kamu cukup mengubah  <code>template.ejs</code> pada direktori berikut:</p>
 
 ```
 Telegram-Bot-Email-Verifikasi

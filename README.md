@@ -7,14 +7,14 @@
 
 <p>3. Ketik perintah berikut untuk menginstal modul fs, path, nodemailer, ejs, dan node-telegram-bot-api:</p>
 
-##
-
 ```
 npm install fs path nodemailer ejs node-telegram-bot-api
 ```
 </p>4. Tunggu hingga proses instalasi selesai. Setelah selesai, Anda dapat menjalankan kode Anda dengan menggunakan Node.js.</p>
 
 <p>Dengan mengikuti langkah-langkah di atas, Anda harus dapat menginstal semua modul yang diperlukan untuk menjalankan kode tersebut. Jika ada masalah atau kesulitan, pastikan untuk memeriksa pesan kesalahan yang muncul di terminal atau command prompt Anda.</p>
+
+##
 
 <p>Pastikan Anda telah mengubah kode berikut dengan Token botAnda, email yang ingin Anda gunakan sebagai pengirim kode verifikasi dan password email Anda, Saya sarankan untuk menggunakan layanan Google Email saja.</p>
 
@@ -24,6 +24,9 @@ const token = 'YOUR_BOT_TOKENS';
 const email = 'YOUR_GMAIL';
 const password = 'YOUR_PASSWORD_GMAIL';
 ```
+
+##
+
 <p>Untuk mengganti tampilan template verifikasi email, kamu cukup mengubah  <code>template.ejs</code> pada direktori berikut:</p>
 
 ```

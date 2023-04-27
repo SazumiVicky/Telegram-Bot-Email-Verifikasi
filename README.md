@@ -35,3 +35,20 @@ Telegram-Bot-Email-Verifikasi
 - views
   - template.ejs
 ```
+
+##
+
+<p>Pada kode berikut, jika file <code>ruser.json</code> tidak ditemukan, maka bot akan secara otomatis membuat file <ruser.json>, file tersebut dimuat oleh bot agar mencegah seseorang menggunakan email yang sama untuk melakukan verifikasi, dan menyimpan data kamu agar pada bot dimulai ulang, data kamu akan tetap aman, dan tidak perlu melakukan verifikasi lagi.</p>
+  
+```
+try {
+  const rawData = fs.readFileSync(ruserFile);
+  verifiedEmails = JSON.parse(rawData);
+} catch (err) {
+  if (err.code === 'ENOENT') {
+    fs.writeFileSync(ruserFile, JSON.stringify({}));
+  } else {
+    console.error(err);
+  }
+}
+```

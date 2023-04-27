@@ -14,7 +14,7 @@ npm install fs path nodemailer ejs node-telegram-bot-api
 
 <h4>Dengan mengikuti langkah-langkah di atas, Anda harus dapat menginstal semua modul yang diperlukan untuk menjalankan kode tersebut. Jika ada masalah atau kesulitan, pastikan untuk memeriksa pesan kesalahan yang muncul di terminal atau command prompt Anda.</h4>
 
-# Pastikan Anda telah mengubah kode berikut dengan Token bot anda, email yang ingin Anda gunakan sebagai pengirim kode verifikasi dan password email Anda, Saya sarankan untuk menggunakan layanan Google Email saja.
+<p>Pastikan Anda telah mengubah kode berikut dengan Token bot anda, email yang ingin Anda gunakan sebagai pengirim kode verifikasi dan password email Anda, Saya sarankan untuk menggunakan layanan Google Email saja.</p>
 
 ```
 //This is what must be changed

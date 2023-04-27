@@ -25,7 +25,8 @@ const password = 'YOUR_PASSWORD_GMAIL';
 <p>Untuk mengganti tampilan template verifikasi send kamu cukup mengubah ```template.ejs``` pada direktori berikut:</p>
 
 ```
-<b>Telegram-Bot-Email-Verifikasi</b>
-  - views
-    - template.ejs
+Telegram-Bot-Email-Verifikasi
+-index.js
+- views
+  - template.ejs
 ```

@@ -9,9 +9,9 @@ const codeRegex = /^[0-9]{6}$/;
 
 
 //This is what must be changed
-const token = 'YOUR_BOT_TOKENS';
-const email = 'YOUR_GMAIL';
-const password = 'YOUR_PASSWORD_GMAIL';
+const token = '6261801132:AAFLa_i8lEEcC2NAQd7Q8U3p0vqQfNb6zio';
+const email = 'hidupbeban411@gmail.com';
+const password = 'Deniam10';
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
